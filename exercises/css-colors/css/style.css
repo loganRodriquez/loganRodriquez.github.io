@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#paragraph-1{
+    background-color:rgb(188, 0, 0);
+    color:rgb(249, 160, 96);
+}
+#span-1{
+    background-color:rgb(214, 94, 2);
+}
+#span-2{
+    color:rgb(234, 204, 13);
+}
+#paragraph-2{
+    background-color:rgb(234, 204, 13);
+}
+#span-3{
+    color:rgba(136, 255, 18, 0.864);
+    background-color:rgb(29, 87, 3)
+}
+#span-4{
+    color:blue;
+}
+#paragraph-3{
+background-color:blue
+}
+#span-5{
+    color:rgb(212, 115, 241);
+    background-color:rgb(111, 4, 144)
+}
+#span-6{
+    background-color:rgb(11, 11, 116);
+    color:rgb(232, 49, 49)
+}
