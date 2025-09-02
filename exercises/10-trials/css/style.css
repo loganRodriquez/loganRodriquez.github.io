@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#span-trial-1 {
+    color: green;
+}
+#span-trial-2,
+#span-trial-3 {
+    color: #F711F7;
+}
+#trial-2-text {
+    background-color: skyblue;
+}
+#trial-4-text {
+    background-color: skyblue;
+}
+#span-trial-8 {
+    background-color: yellow;
+}
+#span-trial-9 {
+    font-weight: bold;
+}
+#span-trial-10 {
+    font-weight: bold;
+}
+#span-trial-11 {
+    text-decoration: underline;
+}
+#span-trial-12 {
+    text-decoration: underline;
+}
+#span-header {
+    font-size: 36px;
+}
+#span-eyes {
+    font-size: 12px;
+}
+#span-fake-heading-2 {
+    font-size: 48px;
+}
+#span-fake-subheading {
+    font-size: 24px;
+}

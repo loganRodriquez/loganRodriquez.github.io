@@ -6,4 +6,38 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
- 
+#span-1 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: line-through;
+}
+#span-2 {
+    font-style:italic
+}
+
+#big-paragraph {
+    font-size: 32px;
+}
+#ff-1 {
+    font-family: serif;  
+}
+#ff-2 {
+    font-family:sans-serif;
+    text-align: center;
+}
+#ff-3 {
+    font-family: monospace;
+}
+#ff-4 {
+    font-family: cursive; 
+}
+#ff-5 {
+    font-family: fantasy;
+}
+#no-underline {
+    text-decoration:none;
+    color:rgb(255, 3, 3);
+}
+#dog {
+    height:200px;
+}
