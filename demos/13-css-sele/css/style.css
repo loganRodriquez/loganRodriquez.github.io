@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#red-paragraph {
+    color: rgb(255, 0, 0);
+}
+.shadowed {
+    background-color: rgb(146, 127, 127);
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 4px 4px 50px yellow
+}
+p {
+    font-size: 25px;
+}
