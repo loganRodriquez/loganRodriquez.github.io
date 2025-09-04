@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+span {
+    background-color: blue;
+    /*display: block;*/
+}
+div {
+    background-color:blueviolet;
+    /*display: inline;*/
+}
+.narrow {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin:10px;
+}
