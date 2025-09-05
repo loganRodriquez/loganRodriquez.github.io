@@ -16,10 +16,32 @@
     font-size: 12px;
     text-align: center;
     display: inline-block;
+    box-shadow: 0px 5px 10px;
 }
-.list {
+ul {
     text-align: left;
 }
 .blue {
     background-color: blue;
+}
+.post-it-img {
+    height: 120px;
+    padding:10px
+
+}
+h2 {
+    margin: 1px;
+    text-align: center;
+}
+.red {
+    background-color: red;
+    height: 200px;
+    padding:5px;
+}
+.yellow {
+    padding: 35px;
+}
+.blank {
+    background-color: rgb(255, 0, 0);
+    display: block;
 }
