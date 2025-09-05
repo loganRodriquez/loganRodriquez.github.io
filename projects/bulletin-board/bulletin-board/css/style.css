@@ -6,3 +6,20 @@
 
     Good luck, and have fun!
 */
+.post-it {
+    width: 150px;
+    height: 149px;
+    background-color: rgb(246, 255, 124);
+    padding: 10px;
+    margin: 24px;
+    vertical-align: top;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+}
+.list {
+    text-align: left;
+}
+.blue {
+    background-color: blue;
+}
