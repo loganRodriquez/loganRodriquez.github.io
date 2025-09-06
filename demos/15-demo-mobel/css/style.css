@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+div { 
+    margin-top: 4px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 48px;
+    background-color: aquamarine;
+    border: 10px solid lightseagreen;
+    height: 100px;
+}
+.dog {
+    height:200px;
+    /*background-color: red;*/
+    border: 5px solid blue;
+    padding: 20px;
+    margin: 200px;
+    border-radius: 50%;
+}
+#demo-div {
+    margin-right: 5px;
+}
