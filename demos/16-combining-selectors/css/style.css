@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    text-align: center;
+    padding: 24px;
+    background-color: blue;
+}
+#navbar a{
+    color: white;
+}
+p a{
+    color: rgb(0, 255, 179);
+}
+/* compound selector */
+p.warning{
+    background-color: crimson;
+}
+p.warning a{
+    color: orange;
+}
