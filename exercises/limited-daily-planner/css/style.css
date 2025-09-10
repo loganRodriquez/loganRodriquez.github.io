@@ -30,7 +30,21 @@ div {
 #morning .completed {
     text-decoration: line-through;
 }
+#morning .important {
+    font-weight: bold;
+    color: rgb(181, 0, 0);
+}
+#afternoon .completed {
+    text-decoration: line-through;
+}
 #afternoon .important {
+    font-weight: bold;
+    color: rgb(181, 0, 0);
+}
+#evening .completed {
+    text-decoration: line-through;
+}
+#evening .important {
     font-weight: bold;
     color: rgb(181, 0, 0);
 }
@@ -44,7 +58,7 @@ div {
     background-color: rgb(6, 198, 6);
     font-size: 10px;
 }
-.important .completed {
+.completed.important {
     text-decoration: line-through;
     background-color: greenyellow;
 }
