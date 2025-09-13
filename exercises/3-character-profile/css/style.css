@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#single-column {
+    max-width: 800px;
+    margin: 40px auto;
+}
+#profiles {
+    display: flex;
+}
+.cards {
+    margin: 36px 0px 0xp;
+    text-align: center;
+    padding: 20px;
+    background-color: brown;
+}
+.image {
+    max-width: 300px;
+}
+ 
