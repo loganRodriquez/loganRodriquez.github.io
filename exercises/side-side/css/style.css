@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#single-center-column {
+    max-width: 800px;
+    border: 3px solid red;
+    margin: 36px auto;
+}
+#recipe-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    object-fit: cover;
+}
+#recipe-info img {
+    width: 25%;
+}
+#column-2 img {
+    width: 100%;
+}
+#column-2 .item-container {
+    display: flex;
+    gap: 30px;
+}
+.item-container img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.item-container div {
+    flex: 1;
+    text-align: center;
+}
+.heading {
+    text-align: center;
+}
