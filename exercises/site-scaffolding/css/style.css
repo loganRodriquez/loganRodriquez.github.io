@@ -35,6 +35,7 @@ a {
 }
 #navbar #logo {
     font-size: 30px;
+    text-decoration: underline;
 }
 h1 {
     text-align: center;
