@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+ #navbar {
+    background: linear-gradient(
+        red, 
+        orange
+        );
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ }
+
+ #navbar a {
+    text-decoration: none;
+    color: rgb(255, 234, 100);
+    padding: 24px;
+}
+#navbar #logo-container img{
+    width: 200px;
+}
+#navbar #logo-container{
+    margin-right: auto;
+}
+#navbar .cta-button {
+    background-color: white;
+    color: red;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+    margin: 0px 24px;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+a {
+    font-family: "Allan", serif;
+    text-decoration: none;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#ff5e0d, #E80C2F);
+}
+#navbar .button {
+    background-color: white;
+    border-radius: 20px;
+    color: #A80DFF;
+    font-size: 34px;
+    margin: 0px 24px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #8C0E03;
+}
+#navbar a {
+    padding: 24px;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 24px;
+}
+#navbar #logo {
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
