@@ -11,14 +11,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    padding: 20px;
+    margin-top: 40px;
 }
 #featured-images {
     width: 100px;
+    object-fit: cover;
 }
 #main-image {
     background-color: rgb(203, 227, 227);
-    padding: 10px 0px;
 }
 #third-column {
     width: 400px;
 }
+
