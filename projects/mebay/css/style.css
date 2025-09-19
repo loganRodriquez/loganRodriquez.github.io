@@ -7,7 +7,6 @@ body {
     font-family: sans-serif;
 }
 #mebay-layout {
-    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -17,11 +16,38 @@ body {
 #featured-images {
     width: 100px;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 #main-image {
     background-color: rgb(203, 227, 227);
+    align-items: center;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
 }
 #third-column {
     width: 400px;
 }
-
+#featured-images img {
+    width: 100%;
+    border-radius: 20px;
+}
+#main-image img {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#featured-images img:first-child {
+    border: 3px solid black;
+    padding: 5px;
+}
+#third-column .offer {
+    margin: 0px;
+    padding: 0px;
+}
+#third-column h1 {
+    margin-bottom: 0px;
+}
