@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#layout {
+    max-width: 800px;
+    margin: 46px;
+    text-align: center;
+}
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid black;
+    padding: 24px;
+    gap: 10px;
+}
+.basic-grid-gallery img {
+    width: 100%
+}
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid black;
+    padding: 24px;
+    gap: 10px;
+}
+.cropped-grid-gallery img {
+    width: 100%
+}
