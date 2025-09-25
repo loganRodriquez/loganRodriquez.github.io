@@ -13,10 +13,10 @@ body {
     background-color: rgb(33, 68, 101);
     padding: 50px;
     display: flex;
+    justify-content: center;
 }
 #navbar h1 {
     font-size: 40px;
-text-align: center;
 }
 #navbar a {
     text-decoration: none;
