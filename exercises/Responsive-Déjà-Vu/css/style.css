@@ -64,3 +64,14 @@ text-align: center;
    /* padding-bottom: 100px;*/
     border-radius: 5px;
 }
+@media screen and (max-width: 450px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 650px) {
+    #masonry-gallery img {
+        grid-template-columns: 1fr;
+    }
+}
