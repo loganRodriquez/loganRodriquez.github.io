@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#themed-gallery {
+    background-color: rgb(149, 167, 184);
+}
+#navbar {
+    background-color: rgb(33, 68, 101);
+    padding: 50px;
+    display: flex;
+}
+#navbar h1 {
+    font-size: 40px;
+text-align: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    font-size: 25px;
+    /*text-align: center;*/
+}
+#hero {
+    background-image: url(../images/thimo-pedersen-dip9IIwUK6w-unsplash.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 300px;
+}
+#hero .hero-text {
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    margin: 0px 30px;
+    padding: 2px;
+    text-shadow: 5px 5px 5px rgb(149, 167, 184)
+}
+#gallery {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+   
+}
+#masonry-gallery img {
+    height: 300px;
+    flex: 1;
+    object-fit: cover;
+    text-align: center;
+    border: 10px solid #fbe925;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+   /* padding-bottom: 100px;*/
+    border-radius: 5px;
+}
