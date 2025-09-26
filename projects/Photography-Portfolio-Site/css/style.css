@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background-color: blueviolet;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 34px;
+}
+#navbar a {
+    font-size: 36px;
+    padding: 24px;
+    text-decoration: none;
+    color: white;
+}
+#hero {
+    background-image: url(../images/urban-hi-res-3q76.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+#hero h1 {
+    color: white;
+    font-size: 80px;
+    padding-right: 300px;
+}
+#hero a {
+    background-color: yellow;
+    font-size: 30px;
+    padding: 24px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.photo-gallery {
+    display: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid black;
+    padding: 24px;
+    gap: 20px;
+    text-align: center;
+}
+#gallery h1{
+    text-align: left;
+    padding-left: 80px;
+    font-size: 40px;
+    text-decoration: underline black;
+}
+.photo-gallery img {
+    display: flex;
+}
