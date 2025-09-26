@@ -21,13 +21,13 @@ body {
 .basic-grid-gallery img {
     width: 100%
 }
-.cropped-grid-gallery {
+.basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 10px solid black;
     padding: 24px;
-    gap: 10px;
+    gap: 15px;
 }
-.cropped-grid-gallery img {
+.basic-grid-gallery img {
     width: 100%
 }
