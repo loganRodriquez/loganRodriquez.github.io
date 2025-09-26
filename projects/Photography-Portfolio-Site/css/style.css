@@ -25,12 +25,12 @@ body {
 #hero {
     background-image: url(../images/urban-hi-res-3q76.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center right;
     height: 40vh;
 
     align-items: center;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 #hero h1 {
     color: white;
@@ -38,8 +38,8 @@ body {
 }
 #hero a {
     background-color: rgb(57, 71, 73);
-    font-size: 30px;
-    padding: 24px;
+    font-size: 20px;
+    padding: 20px;
     margin: 10px;
     border-radius: 10px;
     text-decoration: none;
@@ -49,7 +49,6 @@ body {
 }
 .hero-text {
     text-align: center;
-    padding: 300px;
 }
 .photo-gallery {
     display: grid;
@@ -90,6 +89,7 @@ body {
     margin: 36px 0px;
     background-color: rgb(255, 254, 254);
     border-radius: 10px;
+     box-shadow: 10px 10px 15px black;
 }
 .jims-cards a {
     background-color: rgb(57, 71, 73);
@@ -116,13 +116,14 @@ h1 {
     #gallery h1 {
         align-items: center;
     }
-    #column-cards {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 @media screen and (max-width: 850px) {
     .photo-gallery {
         grid-template-columns: 1fr;
+    }
+    .card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
     }
 }
