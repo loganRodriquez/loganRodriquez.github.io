@@ -62,7 +62,7 @@ body {
     border-radius: 10px;
     padding: 36px;
 }
-#gallery h1{
+#gallery h1 {
     text-align: left;
     padding-left: 80px;
     font-size: 50px;
@@ -89,7 +89,7 @@ body {
     margin: 36px 0px;
     background-color: rgb(255, 254, 254);
     border-radius: 10px;
-     box-shadow: 10px 10px 15px black;
+    box-shadow: 10px 10px 15px black;
 }
 .jims-cards a {
     background-color: rgb(57, 71, 73);
@@ -106,7 +106,7 @@ h1 {
     font-family: "Fredericka the Great", serif;
 }
 @media screen and (max-width: 750px) {
-     body{
+    body {
         background-color: blue;
     }
     #navbar {
