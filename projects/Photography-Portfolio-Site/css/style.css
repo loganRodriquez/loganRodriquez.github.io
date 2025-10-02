@@ -81,6 +81,7 @@ body {
 .card-container {
     display: flex;
     gap: 36px;
+    display: flex col
 }
 .jims-cards {
     border: 5px solid rgb(68, 71, 68);
