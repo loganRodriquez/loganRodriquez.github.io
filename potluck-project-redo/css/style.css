@@ -6,7 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
-    background-color: chocolate;
+    background-color: rgb(110, 0, 0);
 }
 h2 {
     font-size: 32px;
@@ -18,4 +18,8 @@ div#background-color-block {
     margin: 0px 20px;
     max-width: 600px;
     align-items: center;
+    display: inline-block;
+}
+div#white {
+    color: white;
 }
