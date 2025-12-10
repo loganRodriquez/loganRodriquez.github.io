@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: chocolate;
+}
+h2 {
+    font-size: 32px;
+}
+div#background-color-block {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 0px 20px;
+    max-width: 600px;
+    align-items: center;
+}
