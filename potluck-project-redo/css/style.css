@@ -6,7 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
-    background-color: rgb(110, 0, 0);
+   background-color: rgb(110, 0, 0);
 }
 h2 {
     font-size: 32px;
@@ -16,10 +16,22 @@ div#background-color-block {
     padding: 20px;
     border-radius: 30px;
     margin: 0px 20px;
-    max-width: 600px;
+    max-width: 1000px;
     align-items: center;
     display: inline-block;
 }
 div#white {
-    color: white;                            
+    color: white;    
+    background-color: rgb(110, 0, 0); 
+    padding: 30px;           
+}
+div#background-test {
+    background-color: rgb(243, 234, 197);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
+}
+h1 {
+    font-size: 48px;
+    color:rgb(241, 117, 0)
 }
