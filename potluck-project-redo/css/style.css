@@ -27,12 +27,13 @@ a {
     font-size: 20px;
 }
 a:hover {
-    color: #551a8b;
+    color: #440084;
     
 }
 h1, h4 {
     color: orange;
     font-size: 50px;
+    text-decoration-line: underline;
 }
 #color-test {
     background-color: wheat;
