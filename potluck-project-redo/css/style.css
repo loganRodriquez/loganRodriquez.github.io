@@ -6,32 +6,57 @@ body {
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
-   background-color: rgb(110, 0, 0);
 }
-h2 {
-    font-size: 32px;
-}
-div#background-color-block {
-    background-color: lightblue;
+#background-test {
     padding: 20px;
-    border-radius: 30px;
-    margin: 0px 20px;
-    max-width: 1000px;
-    align-items: center;
+    background-color: brown;
+}       
+#inline {
     display: inline-block;
+}   
+#background-color-block {
+    background-color: #abc7ff;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 800px;
 }
-div#white {
-    color: white;    
-    background-color: rgb(110, 0, 0); 
-    padding: 30px;           
+a {
+    text-decoration: none;
+    color: #0d00c9;
+    font-weight: bold;
+    font-size: 20px;
 }
-div#background-test {
-    background-color: rgb(243, 234, 197);
+a:hover {
+    color: #551a8b;
+    
+}
+h1, h4 {
+    color: orange;
+    font-size: 50px;
+}
+#color-test {
+    background-color: wheat;
     padding: 20px;
-    border-radius: 30px;
-    margin: 20px;
+    border-radius: 10px;
 }
-h1 {
-    font-size: 48px;
-    color:rgb(241, 117, 0)
+h3 {
+    font-size: 25px;
+}
+#cook-time {
+    background-color: #ffffcc;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+img {
+    padding-top: 20px;
+}
+#home-button {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 300px;
+    display: inline-block;
+    border-radius: 30px;
 }
