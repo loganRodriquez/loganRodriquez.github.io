@@ -12,24 +12,27 @@ body {
     margin-top: 50px;
 
 }
-.pages-panel {
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 24px;
+}
+.single-column a {
+    font-size: 28px;
+    color: brown;
+}
+.single-column {
+    margin: 36px auto;
     background-color: aliceblue;
     padding: 40px;
-    margin: 40px;
-}
-.page-text {
-    background-color: tomato;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    max-width: 100%;
-}
-#nav-bar {
-    
-}
-.nav-bar-outerlinks {
-
+    border-radius: 30px;
+    max-width: 1400px;
 }
 #page-thumbnail {
-   text-align: center;
+    display: flex;
+    gap: 36px;
+}
+.card {
+    max-width: 300px;
+    padding: 20px;
 }
