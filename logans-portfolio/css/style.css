@@ -5,5 +5,31 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #950000;
 }
- 
+#first-div {
+    text-align: center;
+    margin-top: 50px;
+
+}
+.pages-panel {
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 40px;
+}
+.page-text {
+    background-color: tomato;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+#nav-bar {
+    
+}
+.nav-bar-outerlinks {
+
+}
+#page-thumbnail {
+   text-align: center;
+}
