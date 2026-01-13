@@ -14,7 +14,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     font-size: 24px;
 }
 .single-column a {
@@ -23,7 +23,7 @@ a {
 }
 .single-column {
     margin: 36px auto;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     padding: 40px;
     border-radius: 30px;
     max-width: 1400px;
