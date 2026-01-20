@@ -22,17 +22,38 @@ a {
     color: brown;
 }
 .single-column {
-    margin: 36px auto;
-    background-color: rgb(255, 255, 255);
+    margin: auto;
+    background-color: aliceblue;
     padding: 40px;
     border-radius: 30px;
     max-width: 1400px;
 }
 #page-thumbnail {
-    display: flex;
-    gap: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 20px;
+    
 }
 .card {
     max-width: 300px;
     padding: 20px;
+     margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    align-items: center;
 }
+svg {
+    width: 30px;
+    height: 30px;
+    fill: rgb(255, 255, 255);
+    margin: 5px;
+}
+.nav-bar{
+    padding: 20px;
+}
+   
+/*icon library */
+/*<i class="fi fi-br-home"></i>
+<i class="fi fi-brands-instagram"></i>
+*/
