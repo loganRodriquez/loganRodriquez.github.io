@@ -117,7 +117,11 @@ a {
 .card p {
     padding-left: 30px;
 }
-
+#first-div a {
+    :hover {
+        color: rgb(255, 0, 0);
+    }
+}
 /*icon library */
 /*<i class="fi fi-br-home"></i>
 <i class="fi fi-brands-instagram"></i>
