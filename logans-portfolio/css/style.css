@@ -33,12 +33,15 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     gap: 20px;
-    
+     :hover {
+        transform: scale(1.05);
+    }   
 }
+
 .card {
     max-width: 300px;
     padding: 20px;
-     margin-right: auto;
+    margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
     align-items: center;
@@ -51,8 +54,70 @@ svg {
 }
 .nav-bar{
     padding: 20px;
+    
 }
-   
+.single-page-column {
+    margin: auto;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 1400px;
+    display: flex;
+}
+#side-side-2 {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 1400px;
+    margin: 40px;
+}
+#side-side-2 .item-container{
+    flex: 2;
+}
+#side-side-2 .text-container{
+text-align: center;
+}
+#side-side-2 .item-container img{
+    max-width: 100%px;
+}
+#page-background {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 1400px;
+    margin: 40px auto;
+    text-align: center;
+}
+#image-side-side-2 {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding: 40px;
+    border-radius: 30px;
+    max-width: 1400px;
+    margin: 40px;
+}
+#first-div h1 {
+    color: white;
+    font-size: 50px;
+}
+img {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 5px;
+    align-items: center;
+}
+a {
+    :hover {
+        color: blue;
+    }
+}
+.card p {
+    padding-left: 30px;
+}
+
 /*icon library */
 /*<i class="fi fi-br-home"></i>
 <i class="fi fi-brands-instagram"></i>
