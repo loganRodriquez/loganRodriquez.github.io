@@ -126,3 +126,23 @@ a {
 /*<i class="fi fi-br-home"></i>
 <i class="fi fi-brands-instagram"></i>
 */
+@media screen and (max-width: 640px) {
+    body {
+        background-color: rgb(42, 0, 81);
+    }
+    #basic-grid-gallery {
+    grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 450px) {
+    body{
+        background-color: blue;
+    }
+    #nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    #single-column-layout h1 {
+        font-size: 44px;
+    }
+}
