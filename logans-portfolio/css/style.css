@@ -128,6 +128,12 @@ a {
 p {
     font-size: 18px;
 }
+#back-button {
+   padding-left: 1200px;
+   :hover {
+    fill: red;
+   }
+}
 /*icon library */
 /*<i class="fi fi-br-home"></i>
 <i class="fi fi-brands-instagram"></i>
@@ -138,6 +144,9 @@ p {
     }
     #basic-grid-gallery {
     grid-template-columns: 1fr;
+    }
+    #first-div {
+        grid-template-columns: 1fr;
     }
 }
 @media screen and (max-width: 450px) {
