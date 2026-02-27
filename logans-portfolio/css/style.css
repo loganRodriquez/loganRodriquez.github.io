@@ -134,6 +134,39 @@ p {
     fill: red;
    }
 }
+
+.about-me p {
+   color: white;
+  padding: 60px;
+  font-size: 25px;
+}
+#list {
+    display: inline-block;
+    justify-content: center;
+    gap: 20px;
+    margin: 100px;
+}
+h2 {
+    color: white;
+}
+.transparent {
+    opacity: 0;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+} 
+#color-text a {
+   text-decoration: bold;
+   text-decoration: underline;
+}
+li a {
+    color: rgb(195, 195, 195);
+}
+.footer {
+    display:flex;
+    
+}
 /*icon library */
 /*<i class="fi fi-br-home"></i>
 <i class="fi fi-brands-instagram"></i>
@@ -154,10 +187,17 @@ p {
         background-color: blue;
     }
     #nav {
-        flex-direction: column;
-        align-items: center;
+        
     }
     #single-column-layout h1 {
         font-size: 44px;
+    }
+    #image-side-side-2 {
+        flex-direction: column;
+    }
+    .text-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 }
